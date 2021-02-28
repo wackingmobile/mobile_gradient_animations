@@ -1,0 +1,43 @@
+#side_nav a{
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+}
+#side_nav a:hover{
+  left: 0;
+}   
+#red{
+  top: 20px;
+  background-color: red;
+}
+#green{
+  top: 80px;
+  background-color: green;
+}
+#yellow{
+  top: 140px;
+  background-color: yellow;  
+}
+#beige{
+  top: 200px;
+  background-color: beige
+}
+#white{
+  top: 260px;
+  background-color: white;
+  stroke: 5px solid black;
+}
+#overlay{
+  top: 320px;
+  background: linear-gradient(233deg, #e56420, #c22525, #3d9c31, #37bbde);
+}
+#overlay_two{
+  top: 380px;
+  background: linear-gradient(red,gold,red);
+}
