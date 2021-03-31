@@ -1,0 +1,139 @@
+html, body{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+/*  padding: 30px;*/
+  display: block;
+}
+.fill{
+  width: 100%;
+}
+
+/*Timeline*/
+#line{
+  width: 90%;
+  height: 0;
+  border: 3px solid black;
+  z-index:-1;
+/*  margin: auto;*/
+  position: absolute;
+  bottom: 20px;
+
+}
+
+#contain{
+/*  width: 100vq;*/
+  height: 25px;
+/*  height: 100vh;*/
+/*  background-color: yellow;*/
+/*  overflow-x: hidden;*/
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+#dot_holder{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  bottom: 0;
+  display: inline-flex;
+  
+}
+.hold{
+  margin-right: 100px;
+}
+.sec_ul{
+   list-style-type: inside; margin-top: 1em; margin-bottom: 1 em; margin-left: 0; margin-right: 0; 
+  text-align: center;
+}
+
+#apr,#mar,#feb,#jan, janth{
+  opacity: 0;
+}
+.dot{
+  z-index: 31;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/*inner timeline*/
+.dot_two{
+    z-index: 31;
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 5px;
+}
+.jan,.var_hide, #imgJ_two,#imgF,#imgF_two,#imgM,#imgM_two,#imgA,#imgA_two,#month,#select_one,#select_two,#select_three,#select_four{
+  display: none;
+}
+
+/*content*/
+.content_hold{
+  background-color: red;
+  height: 500px;
+  padding: 30px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+.image{
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.video{
+  width: 70%;
+  height: 90%;
+  overflow: hidden;
+/*  margin-left: 10px;*/
+}
+.img_size{
+  width: 1000px;
+  height: auto;
+}
+.text{
+  width: 40%;
+  height: 100%;
+  background-color: greenyellow;
+  padding: 10px;
+}
+.select{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-flex;
+  background-color: black;
+  margin-right: 50px;
+}
+.align_image{
+  list-style-type: inside; margin-top: 1em; margin-bottom: 1 em; margin-left: 0; margin-right: 0; 
+  text-align: center;
+  z-index: 50;
+}
+#selection{
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+#select_one:hover,#select_two:hover{
+  background-color: purple;
+}
