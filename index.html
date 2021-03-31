@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Process Book</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <script type="text/javascript" src="js/hover.js"></script>
+</head>
+<body onload="my()">
+<!-- variable holder for click detector-->
+  <h1  id="click_var" class="var_hide">false</h1>
+  <h1  id="select_var" class="var_hide">false</h1>
+  <h1  id="jan_var" class="var_hide">off</h1>
+  <h1  id="feb_var" class="var_hide">off</h1>
+  <h1  id="mar_var" class="var_hide">off</h1>
+  <h1  id="apr_var" class="var_hide">off</h1>
+<!--  content-->
+  <div id="month" class="content_hold">   
+     <ul class="align_image">
+<!--      January 13 section-->
+       <li class="image" id="imgJ"><img src="media/january13/Screen%20Shot%202021-01-13%20at%209.26.17%20AM.png" class="img_size"></li>
+       <li class="video" id="imgJ_two">
+         <video controls class="image"><source src="media/january13/Screen%20Recording%202021-01-13%20at%209.28.25%20AM.mp4" type="video/mp4"></video>
+        </li>
+<!--      Febuary -->
+        <li class="image" id="imgF"><img src="media/january13/Screen%20Shot%202021-01-13%20at%209.26.17%20AM.png" class="img_size"></li>
+         <li class="image" id="imgF_two">
+           <video controls class="image"><source src="media/january13/Screen%20Recording%202021-01-13%20at%209.28.25%20AM.mp4" type="video/mp4"></video>
+         </li>
+<!--      March-->
+        <li class="image" id="imgM"><img src="media/january13/Screen%20Shot%202021-01-13%20at%209.26.17%20AM.png" class="img_size"></li>
+         <li class="image" id="imgM_two">
+           <video controls class="image"><source src="media/january13/Screen%20Recording%202021-01-13%20at%209.28.25%20AM.mp4" type="video/mp4"></video>
+        </li>
+<!--      April-->
+        <li class="image" id="imgA"><img src="media/january13/Screen%20Shot%202021-01-13%20at%209.26.17%20AM.png" class="img_size"></li>
+         <li class="image" id="imgA_two">
+           <video controls class="image"><source src="media/january13/Screen%20Recording%202021-01-13%20at%209.28.25%20AM.mp4" type="video/mp4"></video>
+        </li>
+<!--      Selection-->
+       <ul id="selection">
+         <li><span class="select" id="select_one"></span></li>
+         <li><span class="select" id="select_two"></span></li>
+         <li><span class="select" id="select_three"></span></li>
+         <li><span class="select" id="select_four"></span></li>
+       </ul>
+       
+     </ul>
+      
+    <div class="text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eveniet nihil laudantium aperiam alias suscipit, placeat nemo aliquid dolorem! Beatae explicabo tenetur exercitationem, quo fugit corporis atque, nobis officia veniam.</p>
+    </div>
+  </div>
+  
+<!--  timeline -->
+ <div id="contain" class="fill">
+   <div id="line" class="fill"></div>
+
+    <ul id="dot_holder">
+      <li class="hold">
+       <ul class="sec_ul">
+         <li class="other_li " id="jan"><h6>January</h6></li>
+         <li clas="other_li"><div class="dot" id="jan_dot"></div></li>
+       </ul>
+       
+      </li>
+      <li class="hold jan">
+       <ul class="sec_ul">
+         <li class="other_li " id="janth"><h6>13</h6></li>
+         <li clas="other_li"><div class="dot_two" id="janth_dot"></div></li>
+       </ul>
+       
+      </li>
+      <li class="hold">
+       <ul class="sec_ul">
+         <li class="other_li " id="feb"><h6>Febuary</h6></li>
+         <li clas="other_li"><div class="dot" id="feb_dot"></div></li>
+       </ul>
+       
+      </li>
+      <li class="hold">
+       <ul class="sec_ul">
+         <li class="other_li" id="mar"><h6>March</h6></li>
+         <li clas="other_li"><div class="dot" id="mar_dot"></div></li>
+       </ul>
+       
+      </li>
+      <li class="hold">
+       <ul class="sec_ul">
+         <li class="other_li" id="apr"><h6>April</h6></li>
+         <li clas="other_li"><div class="dot" id="apr_dot"></div></li>
+       </ul>
+       
+      </li>
+
+    </ul>
+   
+ </div>
+  
+</body>
+</html>
